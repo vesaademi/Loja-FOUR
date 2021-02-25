@@ -1,0 +1,47 @@
+.title {
+  font-weight: bold;
+  text-align: center;
+  max-width: 450px;
+  margin: auto;
+  outline: solid #add8e6 2px;
+  border-bottom: 0;
+  margin-bottom: 0;
+  background-image: linear-gradient(180deg, #ffe4c4, #6495ed);
+}
+
+h3 {
+  font-size: 3em;
+  font-family: "Anton";
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+  font-family: "Nanum Pen Script";
+  font-size: 1.7em;
+}
+
+.red-turn {
+  background-color: red;
+}
+
+.yellow-turn {
+  background-color: yellow;
+}
+
+/* color animation code when game ends */
+@keyframes color-animation {
+  0% {
+    background: red;
+  }
+  100% {
+    background: yellow;
+  }
+}
+
+.game-won {
+  animation: color-animation 3s infinite linear alternate;
+}

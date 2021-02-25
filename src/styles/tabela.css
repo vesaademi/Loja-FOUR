@@ -1,0 +1,21 @@
+.board-wrapper {
+  max-width: 450px;
+  height: 450px;
+  margin: auto;
+  background-image: linear-gradient(180deg, #ffe4c4, #6495ed);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-left: solid #add8e6 2px;
+  border-right: solid #add8e6 2px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}

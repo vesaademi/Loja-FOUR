@@ -1,0 +1,28 @@
+.allButtonsContainer {
+  max-width: 450px;
+  border: solid #add8e6 2px;
+  border-bottom: 0px;
+  margin: auto;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-evenly;
+  background-image: linear-gradient(180deg, #6495ed, #ffe4c4);
+}
+
+.gameModeButton {
+  font-size: 2em;
+  background-color: #ffe4c4;
+  color: #6495ed;
+  border: 2px solid #6595ed;
+  cursor: pointer;
+}
+
+.gameModeButton:hover {
+  background-color: #6495ed;
+  color: white;
+}
+
+.gameModeButtons {
+  display: flex;
+}

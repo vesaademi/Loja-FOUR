@@ -1,0 +1,42 @@
+.gameLevels {
+  max-width: 450px;
+  margin: auto;
+  border: solid #add8e6 2px;
+  border-top: 0px;
+  display: flex;
+}
+
+.level {
+  margin: auto;
+  max-width: 450px;
+  padding-top: 5px;
+  background-color: #ffe4c4;
+  text-align: center;
+}
+
+.easyLevel {
+  opacity: 0.7;
+  background-color: yellow;
+}
+
+.normalLevel {
+  opacity: 0.7;
+  background-color: orange;
+}
+
+.hardLevel {
+  opacity: 0.7;
+  background-color: red;
+}
+
+.level {
+  flex: 1;
+  border: none;
+  font-family: "Anton";
+  cursor: pointer;
+}
+
+/* for disabling level buttons */
+.level:disabled {
+  cursor: not-allowed;
+}
